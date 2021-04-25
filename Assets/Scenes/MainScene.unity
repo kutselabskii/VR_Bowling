@@ -1506,6 +1506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 1403621904580875431, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1967064493744963210, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1549,6 +1553,10 @@ PrefabInstance:
     - target: {fileID: 1967064493744963210, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221174218994082073, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
+      propertyPath: BallWeight
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8104616644065251274, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
       propertyPath: m_InteractionManager

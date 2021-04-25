@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 794681239598286309}
   - component: {fileID: 1403621904580875431}
   - component: {fileID: 8104616644065251274}
+  - component: {fileID: 5221174218994082073}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -176,3 +177,22 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!114 &5221174218994082073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155096410367190064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7407b6376d0f6ed47924e2601a3376a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BallWeight: 0
+  Materials:
+    FeatherMaterial: {fileID: 2100000, guid: 48cbfa1f36b90d442aa30cea4c7b4e52, type: 2}
+    LightMaterial: {fileID: 2100000, guid: 85f85d1c6766a6f4f9f08dbbd342e59a, type: 2}
+    MediumMaterial: {fileID: 2100000, guid: 2a1d8cfa0bda5b543ad4dd5390b211de, type: 2}
+    HeavyMaterial: {fileID: 2100000, guid: fb81d8bfe4d74e54fa69fb53e8d1ffd8, type: 2}
+    OverwhelmingMaterial: {fileID: 2100000, guid: df37875fdf86ced46a8eb74ba239dace, type: 2}
