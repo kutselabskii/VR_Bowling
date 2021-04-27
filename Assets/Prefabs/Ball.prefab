@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1403621904580875431}
   - component: {fileID: 8104616644065251274}
   - component: {fileID: 5221174218994082073}
+  - component: {fileID: 4403410140909464631}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -196,3 +197,16 @@ MonoBehaviour:
     MediumMaterial: {fileID: 2100000, guid: 2a1d8cfa0bda5b543ad4dd5390b211de, type: 2}
     HeavyMaterial: {fileID: 2100000, guid: fb81d8bfe4d74e54fa69fb53e8d1ffd8, type: 2}
     OverwhelmingMaterial: {fileID: 2100000, guid: df37875fdf86ced46a8eb74ba239dace, type: 2}
+--- !u!135 &4403410140909464631
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155096410367190064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0026
+  m_Center: {x: 0, y: 0, z: 0}

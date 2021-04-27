@@ -796,6 +796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pin
       objectReference: {fileID: 0}
+    - target: {fileID: 5958522204742742555, guid: 0f796207ecb92f84eb3128363b030559, type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f796207ecb92f84eb3128363b030559, type: 3}
 --- !u!1 &1635363657
@@ -1520,7 +1524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967064493744963210, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.107834965
+      value: 1.206
       objectReference: {fileID: 0}
     - target: {fileID: 1967064493744963210, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1556,7 +1560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5221174218994082073, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
       propertyPath: BallWeight
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8104616644065251274, guid: 736232292233c8342b3ac88a929a8fad, type: 3}
       propertyPath: m_InteractionManager

@@ -11,6 +11,7 @@ public class BallController : MonoBehaviour
     void Start()
     {
         GetComponent<Renderer>().material = Materials.GetMaterial(BallWeight);
+        GetComponent<Rigidbody>().mass = (int) BallWeight;
     }
 
     void Update()
@@ -48,9 +49,9 @@ public struct BallWeightMaterials
 
 public enum BallWeight
 {
-    Medium,
-    Feather,
-    Light,
-    Heavy,
-    Overwhelming
+    Medium = 5,
+    Feather = 1,
+    Light = 3,
+    Heavy = 7,
+    Overwhelming = 12,
 }

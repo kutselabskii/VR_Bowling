@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 452135780989602453}
   - component: {fileID: 5958522204742742555}
   - component: {fileID: 2038483682314753974}
+  - component: {fileID: 3362724946495082687}
   m_Layer: 0
-  m_Name: pin
+  m_Name: Pin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,3 +178,17 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!136 &3362724946495082687
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109570738461518656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.00067709346
+  m_Height: 0.0038
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
