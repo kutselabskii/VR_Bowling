@@ -12,6 +12,7 @@ public class BallController : MonoBehaviour
     {
         GetComponent<Renderer>().material = Materials.GetMaterial(BallWeight);
         GetComponent<Rigidbody>().mass = (int) BallWeight;
+        transform.localScale *= 1 + (int)BallWeight / 25f;
     }
 
     void Update()
