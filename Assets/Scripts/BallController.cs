@@ -8,8 +8,14 @@ public class BallController : MonoBehaviour
 
     public BallWeightMaterials Materials;
 
+    private Vector3 startingPosition;
+    private Quaternion startingRotation;
+
     void Start()
     {
+        startingPosition = transform.position;
+        startingRotation = transform.rotation;
+
         GetComponent<Renderer>().material = Materials.GetMaterial(BallWeight);
         GetComponent<Rigidbody>().mass = (int) BallWeight;
         transform.localScale *= 1 + (int)BallWeight / 25f;
@@ -20,6 +26,10 @@ public class BallController : MonoBehaviour
         
     }
 
+    public void ResetPosition()
+    {
+        transform.SetPositionAndRotation(startingPosition, startingRotation);
+    }
 }
 
 [System.Serializable]
