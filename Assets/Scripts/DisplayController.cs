@@ -21,6 +21,12 @@ public class DisplayController : MonoBehaviour
         
     }
 
+    public void AddScore(int amount)
+    {
+        score += amount;
+        UpdateText();
+    }
+
     private void UpdateText()
     {
         text.text = $"Scores: {score}";
