@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class DisplayController : MonoBehaviour
 {
     private Text text;
-    private int score;
+    public int Score;
 
     void Start()
     {
         text = GetComponentInChildren<Text>();
-        score = 0;
+        Score = 0;
 
         UpdateText();
     }
@@ -21,14 +21,20 @@ public class DisplayController : MonoBehaviour
         
     }
 
+    public void SetScore(int amount)
+    {
+        Score = amount;
+        UpdateText();
+    }
+
     public void AddScore(int amount)
     {
-        score += amount;
+        Score += amount;
         UpdateText();
     }
 
     private void UpdateText()
     {
-        text.text = $"Scores: {score}";
+        text.text = $"Scores: {Score}";
     }
 }
