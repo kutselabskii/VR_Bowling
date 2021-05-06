@@ -6,7 +6,7 @@ using UnityEngine;
 [System.Serializable]
 public class Save
 {
-    public List<int> Scores = new List<int>(new[] {0, 0, 0});
+    public List<int> Scores = new List<int>();
 
     public Save()
     {

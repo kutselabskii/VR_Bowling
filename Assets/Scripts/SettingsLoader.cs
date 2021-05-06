@@ -8,4 +8,25 @@ public class SettingsLoader : MonoBehaviour
     {
         GameObject.FindObjectOfType<AudioSource>().mute = PlayerPrefs.GetInt("mute") > 0;
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.S)) {
+            CallSave();
+        }
+
+        if (Input.GetKeyDown(KeyCode.L)) {
+            CallLoad();
+        }
+    }
+
+    public void CallSave()
+    {
+        Save.SaveGame();
+    }
+
+    public void CallLoad()
+    {
+        Save.LoadGame();
+    }
 }
